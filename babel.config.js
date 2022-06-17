@@ -19,6 +19,7 @@ module.exports = {
           '@themes': './src/themes',
           '@services': './src/services',
           '@translations': './src/translations',
+          '@types': './src/types',
           '@app': './App',
         },
       },
