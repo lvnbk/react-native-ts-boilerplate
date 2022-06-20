@@ -5,7 +5,7 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   overrides: [
     {
-      files: ['*.ts', '*.tsx'],
+      files: ['*.ts', '*.tsx', '*.js'],
       rules: {
         semi: ['error', 'never'],
         'object-curly-spacing': ['error', 'always'],

@@ -39,20 +39,7 @@
 
     "baseUrl": "./",
     "paths": {
-      "@components/*": ["src/components/*"],
-      "@configs/*": ["src/configs/*"],
-      "@constants/*": ["src/constants/*"],
-      "@navigations/*": ["src/navigations/*"],
-      "@screens/*": ["src/screens/*"],
-      "@stores/*": ["src/stores/*"],
-      "@utils/*": ["src/utils/*"],
-      "@helpers/*": ["src/helpers/*"],
-      "@database/*": ["src/database/*"],
-      "@assets/*": ["src/assets/*"],
-      "@themes/*": ["src/themes/*"],
-      "@translations/*": ["src/translations/*"],
-      "@types/*": ["src/types/*"],
-      "@app": ["./App"]
+      "@/*": ["src/*"]
     },
 
     /* JavaScript Support */

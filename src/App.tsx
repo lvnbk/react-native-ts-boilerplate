@@ -1,4 +1,4 @@
-import baseStyle from '@themes/base-style'
+import baseStyle from '@/themes/base-style'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import { RootNavigation } from './navigations'
