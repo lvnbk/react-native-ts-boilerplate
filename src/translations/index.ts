@@ -1,18 +1,18 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
-import * as resources from './resources/index'
+import { en, vi } from './resources/index'
+
+export const defaultNS = 'translation'
+export const resources = {
+  en: {
+    translation: en,
+  },
+} as const
 
 i18n.use(initReactI18next).init({
   resources: {
-    ...Object.entries(resources).reduce(
-      (acc, [key, value]) => ({
-        ...acc,
-        [key]: {
-          translation: value,
-        },
-      }),
-      {},
-    ),
+    vi: { translation: en },
+    en: { translation: vi },
   },
   lng: 'en',
 })

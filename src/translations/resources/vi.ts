@@ -1,5 +1,5 @@
 export default {
-  welcome: 'Welcome to React Native Boilerplate by TheCodingMachin ',
+  welcome: 'Chào mừng bạn đến với React Native ',
   actions: {
     continue: 'Continue',
   },
